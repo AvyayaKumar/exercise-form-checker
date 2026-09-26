@@ -30,7 +30,7 @@ An AI-powered web application that analyzes your exercise form in real-time usin
 - **AI Model**: YOLOv8 (Ultralytics)
 - **Analysis Engine**: Custom biomechanical analysis (1,284 lines)
 - **Video Processing**: OpenCV
-- **Deployment**: Streamlit Community Cloud
+- **Availability**: Runs locally; no hosted demo yet
 
 ## 📝 License
 
