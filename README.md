@@ -4,7 +4,7 @@ An AI-powered web application that analyzes your exercise form in real-time usin
 
 ## 🎯 Features
 
-- **15 Exercise Types**: Pullup, Pushup, Squat, Situp, Bench Press, Jumping Jacks, Jump Rope, Tennis Serve/Forehand, Baseball Swing/Pitch, Golf Swing, Bowling, Clean & Jerk, Guitar Strumming
+- **15 Movement Types (Penn Action classes)**: Pullup, Pushup, Squat, Situp, Bench Press, Jumping Jacks, Jump Rope, Tennis Serve/Forehand, Baseball Swing/Pitch, Golf Swing, Bowling, Clean & Jerk, Guitar Strumming
 - **Real-time Pose Detection**: YOLOv8 with 13 keypoint tracking
 - **Biomechanical Analysis**: Joint angles, body alignment, range of motion
 - **Form Scoring**: 0-10 scale with detailed breakdown
