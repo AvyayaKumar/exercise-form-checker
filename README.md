@@ -11,11 +11,11 @@ An AI-powered web application that analyzes your exercise form in real-time usin
 - **Visual Feedback**: Annotated videos with pose overlays
 - **Export Reports**: JSON and CSV analysis reports
 
-## 🚀 Model Performance
+## 🚀 Model
 
-- **Accuracy**: 89.49% mAP@50
-- **Training Data**: 163,841 frames from Penn Action dataset
-- **Architecture**: YOLOv8n-pose (fine-tuned)
+- **Architecture**: YOLOv8n-pose, fine-tuned (`best_full.pt`, Ultralytics 8.3.226, trained Nov 2025)
+- **Data**: the Penn Action dataset (163,841 frames across 2,326 videos, 15 classes)
+- **Evaluation**: the checkpoint's own validation metrics are 95.24% pose mAP@50 and 78.37% pose mAP@50-95. These aren't quoted as held-out results: the train/validation split isn't in this repo, so I can't confirm validation frames came from videos the model never saw during training. Adjacent frames from one video are nearly identical, so a frame-level split would overstate accuracy.
 
 ## 📊 How It Works
 
